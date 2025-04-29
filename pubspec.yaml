@@ -1,5 +1,5 @@
 name: reusable_icon
-description: "A new Flutter package project."
+description: "A Flutter package providing reusable floating icon buttons and selectable icons with customizable appearance and interaction."
 version: 0.0.2
 homepage: https://github.com/GenieCoderSrc/reusable_icon
 repository: https://github.com/GenieCoderSrc/reusable_icon
