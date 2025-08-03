@@ -2,10 +2,13 @@ import 'package:flutter/material.dart';
 
 import 'app_icon.dart';
 
-
 class AppIconBtn extends StatelessWidget {
-  const AppIconBtn(
-      {super.key, required this.onPressed, this.tooltipTxt, this.icon});
+  const AppIconBtn({
+    super.key,
+    required this.onPressed,
+    this.tooltipTxt,
+    this.icon,
+  });
 
   final VoidCallback onPressed;
   final String? tooltipTxt;

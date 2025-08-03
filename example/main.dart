@@ -10,10 +10,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'App Float Button Demo',
-      home: const HomePage(),
-    );
+    return MaterialApp(title: 'App Float Button Demo', home: const HomePage());
   }
 }
 
