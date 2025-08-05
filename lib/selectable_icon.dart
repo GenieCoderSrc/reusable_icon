@@ -30,10 +30,9 @@ class SelectableIcon extends StatelessWidget {
       decoration: BoxDecoration(
         shape: BoxShape.circle,
         border: Border.all(
-          color:
-              isSelected
-                  ? selectedCircleColor ?? Colors.green
-                  : unSelectedCircleColor ?? Colors.grey,
+          color: isSelected
+              ? selectedCircleColor ?? Colors.green
+              : unSelectedCircleColor ?? Colors.grey,
           width: circleWide ?? 2.0,
         ),
       ),
@@ -41,10 +40,9 @@ class SelectableIcon extends StatelessWidget {
         isSelected
             ? selectedIcon ?? Icons.check_circle
             : unSelectedIcon ?? Icons.circle_rounded,
-        color:
-            isSelected
-                ? selectedIconColor ?? Colors.green
-                : unSelectedIconColor ?? Colors.white,
+        color: isSelected
+            ? selectedIconColor ?? Colors.green
+            : unSelectedIconColor ?? Colors.white,
         size: iconSize ?? 12.0,
       ),
     );
