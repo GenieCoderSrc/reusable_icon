@@ -2,12 +2,23 @@
 
 All notable changes to this project will be documented in this file.
 
+## 0.0.3
+
+### Aug 22, 2025
+
+### ✨ Updated
+
+- Updated Dart sdk to 3.9.0
+- Removed `flutter_lints` Dependency
+
 ## 0.0.2
+
 - Added selectable_icon.dart file
 
-
 ## 0.0.1
+
 ### Initial Release
+
 - Added predefined **TextStyles** for various text sizes and weights.
 - Included **BorderRadiusStyle** for consistent rounded corners.
 - Implemented **MediaQuerySize** helpers for screen width and height.
