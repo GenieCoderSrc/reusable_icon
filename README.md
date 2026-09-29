@@ -11,6 +11,8 @@ A simple and flexible package that provides reusable floating icon buttons with 
 Add the package to your `pubspec.yaml`:
 
 ```yaml
+resolution: workspace
+
 dependencies:
   app_float_button: <latest_version>
 ```
